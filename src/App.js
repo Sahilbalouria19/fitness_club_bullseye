@@ -52,7 +52,7 @@ export default function App() {
               </table>
                 {" "} 
             </h3>
-            <div> Your registration was successful! </div>
+            <div><button class="form-field"><a href="/">Back to Home</a></button> </div>
           </div>
         )}
         <h1 className="title">Fitness Club Registration</h1>
