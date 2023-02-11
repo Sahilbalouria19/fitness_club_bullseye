@@ -120,6 +120,11 @@ export default function App() {
             Add Member
           </button>
         )}
+        {!valid && (
+          <button class="form-field" type="submit">
+            View Member
+          </button>
+        )}
       </form>
     </div>
   );
